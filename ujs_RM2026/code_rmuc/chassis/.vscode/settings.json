@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "bsp_can.h": "c",
-        "vmc_calc.h": "c",
-        "detect_task.h": "c",
-        "ins_task.h": "c"
-    }
-}

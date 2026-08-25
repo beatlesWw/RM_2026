@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "warming.h": "c",
-        "locomotion_controller.h": "c",
-        "lqr.h": "c",
-        "parameter.h": "c"
-    }
-}
