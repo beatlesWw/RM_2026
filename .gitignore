@@ -9,8 +9,16 @@
 /VScode/
 /Browser/
 /Kimi/
-步兵/器械/
+/AI/
 profile/2025_Inheritance/ES-DAP-Viewer/
+
+# ----- 步兵\器械：只上传小工具和文档，跳过已安装软件 -----
+步兵/器械/RoboMasterEngine*/
+步兵/器械/DJI Assistant 2/
+步兵/器械/RMAssistant v2.7/
+步兵/器械/tof激光测距模块/
+步兵/器械/达妙电机/达妙4310/
+步兵/器械/达妙电机/达妙上位机/
 
 # ----- git 仓库备份（上传前暂存的 .git）-----
 _git_archives/
