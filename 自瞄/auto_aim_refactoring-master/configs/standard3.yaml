@@ -1,0 +1,119 @@
+enemy_color: "red"
+# enemy_color: "blue"
+
+#####-----神经网络参数-----#####
+yolo_name: yolov5
+classify_model: assets/tiny_resnet.onnx
+yolo11_model_path: assets/yolo11.xml
+yolov8_model_path: assets/yolov8.xml
+yolov5_model_path: assets/yolov5.xml
+device: CPU  #原来GPU ——OpenVINO用来推理的设备
+min_confidence: 0.8 #0.8原来
+use_traditional: true
+
+#####-----ROI-----#####
+roi: 
+  x: 420
+  y: 50
+  width: 600
+  height: 600
+
+use_roi: false  #原来：false
+
+#####-----传统方法参数-----#####
+threshold: 150  #原来：150
+max_angle_error: 45 # degree
+min_lightbar_ratio: 1.5
+max_lightbar_ratio: 20  #长宽比
+min_lightbar_length: 8   #单位：像素（灯条在可视化页面最小能够检测的长度）
+min_armor_ratio: 1
+max_armor_ratio: 5  #长短灯条最大长宽比
+max_side_ratio: 1.5 #最大矩形误差
+max_rectangular_error: 25 # degree
+
+#####-----tracker参数-----#####
+min_detect_count: 5
+max_temp_lost_count: 5
+outpost_max_temp_lost_count: 75
+
+#####-----aimer参数-----#####
+yaw_offset: 0 # degree -2.5  #原来：2    3.4日前是：-4.2
+pitch_offset: 0 # degree 2  #原来6.5      3.4日前是：1.1 
+comming_angle: 55 # degree
+leaving_angle: 20 # degree
+decision_speed: 7 # rad/s
+high_speed_delay_time: 0.00 # s   原来：0.0
+low_speed_delay_time: 0.0 # s planner use this value  #原来0.0
+
+#####-----shooter参数-----#####
+first_tolerance: 3 # 近距离射击容差，degree
+second_tolerance: 2 # 远距离射击容差，degree
+judge_distance: 2 #距离判断阈值
+auto_fire: true # 是否由自瞄控制射击
+
+#####-----相机参数-----#####
+camera_name: "galaxy"
+exposure_ms: 5
+gain: 10   #原来：16.9
+vid_pid: "" #原来：2bdf:0001  老三：2ba2:4d55
+
+#  1  0  0
+#  0  1  0
+#  0  0  1
+R_gimbal2imubody: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+
+# 假设 IMU 相对于云台有 -160° 的 yaw 偏差（约 -2.79 rad）
+# R_gimbal2imubody: [-0.87, -0.48, 0, 0.48, -0.87, 0, 0, 0, 1]
+# 重投影误差: 0.0443px
+camera_matrix: [1287.3790588782911, 0, 628.58157281319416, 0, 1288.4236459851522, 490.10931291092896, 0, 0, 1]
+distort_coeffs: [-0.081736930045832448, 0.13686314035666389, 6.4125354366084708e-05, -0.0004338054831810324, 0]
+
+# # 相机同理想情况的偏角: yaw-112.27 pitch10.11 roll-5.43 degree
+# # 标定板到世界坐标系原点的水平距离: 1.10 m
+# # 标定板同竖直摆放时的偏角: yaw-179.96 pitch-9.51 roll-4.51 degree
+# R_camera2gimbal: [0.92762756619882769, 0.021373939909830712, -0.37289442623988112, 0.36170692315098574, 0.19755328006502437, 0.91112063047666536, 0.093140754628069158, -0.98005910853799039, 0.17552476634091504]
+# t_camera2gimbal: [-0.088325894745539341, 0.1464838125439, 0.1045401992524783]
+
+# 相机同理想情况的偏角: yaw160.69 pitch0.07 roll-1.43 degree
+# 标定板到世界坐标系原点的水平距离: 1.20 m
+# 标定板同竖直摆放时的偏角: yaw-175.25 pitch1.05 roll0.22 degree
+R_camera2gimbal: [-0.33075846860588021, -0.0094028989295813822, -0.9436685969858345, 0.94338408867632906, 0.023201586157969387, -0.33088993280558765, 0.025005932852523814, -0.99968658683183009, 0.0011964241307613503]
+t_camera2gimbal: [-0.13821591272404252, -0.053458602925658842, 0.046508330557696251]
+
+# R_camera2gimbal: [-0.30278387546651664, -0.0010822076770196116, -0.95305863071692543, 0.95257969829579592, 0.031375079015866669, -0.30266734678758883, 0.030229838771774015, -0.99950709514404745, -0.0084689789550236316]
+# t_camera2gimbal: [-0.068945590749842578, 1.3262432709638281, -1.3698121867347288]
+
+####-----cboard参数-----#####
+quaternion_canid: 0x100
+bullet_speed_canid: 0x101
+send_canid: 0xff
+can_interface: "can0"
+
+#####-----gimbal参数-----#####
+com_port: "/dev/ttyUSB0"  #com_port: "/dev/gimbal"  "/dev/ttyUSB0"  "/dev/tnt0"
+yaw_kp: 0
+yaw_kd: 0
+pitch_kp: 0
+pitch_kd: 0
+
+#####-----planner-----#####
+fire_thresh: 0.0035  # 原来0.0035，临时放宽到约1.1度测试  2.24日前是 0.02
+
+max_yaw_acc: 50  #单位：弧度/秒的平方  原来：50
+Q_yaw: [9e6, 0]
+R_yaw: [1]     #原来：[1]  这是2.24前的
+# Q_yaw: [9e6, 1e4]      # 增加速度误差惩罚
+# R_yaw: [100]           # 2.24改 增加加速度惩罚，抑制剧烈变化
+
+max_pitch_acc: 100    #原本：100  单位：弧度/秒的平方
+Q_pitch: [9e6, 0]
+R_pitch: [1]          #原来：[1] 这是原来的
+# Q_pitch: [9e6, 1e4]
+# R_pitch: [100]  #2.24改
+
+#####-----buff_detector参数-----#####
+model: "assets/yolo11_buff_int8.xml"
+
+#####-----buff_aimer参数-----#####
+fire_gap_time: 0.700   # s——单位 秒
+predict_time: 0.120     # s——单位 秒

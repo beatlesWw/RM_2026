@@ -1,0 +1,76 @@
+# ============================================
+#  E:\RM 上传 GitHub 的排除规则
+#  规则说明见仓库根目录 README（如添加）
+# ============================================
+
+# ----- 已安装软件 / 非代码目录 -----
+/app/
+/toolchains/
+/VScode/
+/Browser/
+/Kimi/
+步兵/器械/
+profile/2025_Inheritance/ES-DAP-Viewer/
+
+# ----- git 仓库备份（上传前暂存的 .git）-----
+_git_archives/
+
+# ----- 压缩包 / 安装包 / 镜像 -----
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.xz
+*.bz2
+*.exe
+*.msi
+*.AppImage
+*.dmg
+*.iso
+*.qkdownloading
+*.crdownload
+
+# ----- 视频 -----
+*.mp4
+*.mkv
+*.avi
+*.wmv
+*.mov
+*.flv
+*.webm
+
+# ----- 大体积文档 -----
+*.pdf
+
+# ----- 机械图纸 / CAD -----
+*.step
+*.stp
+*.sldprt
+*.sldasm
+*.stl
+*.dxf
+*.dwg
+
+# ----- MATLAB 数据 -----
+*.mat
+
+# ----- Keil / 嵌入式构建产物 -----
+*.o
+*.axf
+*.crf
+*.lst
+*.lnp
+*.uvguix.*
+*.bak
+*.lib
+*.a
+*.d
+Objects/
+Listings/
+
+# ----- 常见构建目录 -----
+build/
+Debug/
+Release/
+__pycache__/

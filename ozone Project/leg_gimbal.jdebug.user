@@ -1,0 +1,56 @@
+
+
+GraphedExpression="(chassis_cmd_send).T_Gimbal_Yaw", Color=#e56a6f, Show=0
+GraphedExpression="(chassis_cmd_send).yaw", Color=#35792b, Show=0
+OpenDocument="kalman_filter.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/algorithm/kalman_filter.c", Line=255
+OpenDocument="main.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Src/main.c", Line=70
+OpenDocument="ins_task.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/imu/ins_task.c", Line=248
+OpenDocument="stm32f4xx_hal_spi.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c", Line=1279
+OpenDocument="bsp_dwt.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/bsp/dwt/bsp_dwt.c", Line=69
+OpenDocument="startup_stm32f407xx.s", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/startup_stm32f407xx.s", Line=51
+OpenDocument="tasks.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3630
+OpenDocument="stm32f4xx_hal_tim.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c", Line=3882
+OpenDocument="bsp_can.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/bsp/can/bsp_can.c", Line=115
+OpenDocument="QuaternionEKF.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/algorithm/QuaternionEKF.c", Line=423
+OpenDocument="dmmotor.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/motor/DMmotor/dmmotor.c", Line=81
+OpenDocument="gimbal.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/application/gimbal/gimbal.c", Line=73
+OpenDocument="stm32f4xx_hal.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c", Line=315
+OpenDocument="crc16.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/algorithm/crc16.c", Line=15
+OpenDocument="robot_def.h", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/application/robot_def.h", Line=132
+OpenDocument="robot_cmd.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/application/cmd/robot_cmd.c", Line=307
+OpenDocument="SEGGER_RTT.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Middlewares/Third_Party/SEGGER/RTT/SEGGER_RTT.c", Line=1086
+OpenDocument="stm32f4xx_hal_can.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c", Line=1411
+OpenDocument="sysmem.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Src/sysmem.c", Line=42
+OpenDocument="BMI088Middleware.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/imu/BMI088Middleware.c", Line=0
+OpenDocument="dji_motor.h", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/motor/DJImotor/dji_motor.h", Line=49
+OpenDocument="dmmotor.h", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/motor/DMmotor/dmmotor.h", Line=36
+OpenDocument="port.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c", Line=418
+OpenDocument="message_center.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/modules/message_center/message_center.c", Line=74
+OpenDocument="SEGGER_RTT_printf.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Middlewares/Third_Party/SEGGER/RTT/SEGGER_RTT_printf.c", Line=105
+OpenDocument="cmsis_os.c", FilePath="E:/RM/profile/2025_Inheritance/ujs_new_frame/gimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c", Line=326
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=392, h=735, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=767, h=347, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=392, h=735, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=1, w=767, h=387, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=RIGHT, x=0, y=1, w=767, h=387, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=523, h=488, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=523, h=488, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=1, y=0, w=2036, h=488, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="1 ns / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="1658;273", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1768;-69", CodeGraphLegendShown=0, CodeGraphLegendPosition="1784;0"
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=2036, h=488, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" (chassis_cmd_send).T_Gimbal_Yaw";" (chassis_cmd_send).yaw"], ColWidths=[100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Value", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[118;100;100;100;100;100;110;126;126]
+TableHeader="Global Data", SortCol="Value", SortOrder="DESCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[100;100;102;100;100;265]
+TableHeader="Vector Catches", SortCol="", SortOrder="ASCENDING", VisibleCols=["";"Vector Catch";"Description"], ColWidths=[50;300;500]
+TableHeader="Break & Tracepoints", SortCol="None", SortOrder="DESCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;102;100]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Task List", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;110;110;110;110;110]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[263;100;100;100;1014]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[181;273;100;213]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;340]
+WatchedExpression="gimbal_fetch_data", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="chassis_cmd_send", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="gimbal_cmd_send", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="pitch_motor", RefreshRate=5, Window=Watched Data 1

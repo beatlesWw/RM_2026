@@ -1,0 +1,12 @@
+CompileFlags:
+    Remove:
+    - "mthumb-interwork"
+    - "Wunused-variable"
+    
+    Add: 
+    - "-IE:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/arm-none-eabi/include"
+
+Diagnostics:
+  UnusedIncludes: None
+  Suppress: 
+    - "-Wunused-variable"

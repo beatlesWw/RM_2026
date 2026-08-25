@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "stm32f4xx_hal_def.h": "c",
+        "general_def.h": "c",
+        "stdlib.h": "c",
+        "bsp_can.h": "c",
+        "math.h": "c",
+        "user_lib.h": "c",
+        "servo_motor.h": "c",
+        "main.h": "c",
+        "buzzer.h": "c",
+        "robot_def.h": "c",
+        "bsp_log.h": "c",
+        "bsp_usart.h": "c",
+        "memory.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

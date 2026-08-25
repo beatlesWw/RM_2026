@@ -1,0 +1,10 @@
+camera_name: "galaxy"
+exposure_ms: 2  #原来：2
+# gamma: 0.5
+gain: 10.0   #原来：10.0
+vid_pid: "2ba2:4d55"    #  原来：f622:d13a  2ba2:4d55——现在的序列号
+
+# camera_name: "hikrobot"
+# exposure_ms: 3
+# gain: 10.0
+# vid_pid: "2bdf:0001"

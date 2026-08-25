@@ -1,0 +1,1 @@
+plot(leg,k11,'o',x0,y11,'r','LineWidth',1.5);xlabel('x');ylabel('y');title('k11');legend('real','fitting','FontSize',15);

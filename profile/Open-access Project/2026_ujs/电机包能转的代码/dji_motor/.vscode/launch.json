@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "cwd": "${workspaceRoot}",
+        "executable": "build/dji_motor.elf",//实际路径
+        "name": "Debug with OpenOCD",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",//调试器类型
+        "device": "STM32F407IGH6",//芯片型号
+        "configFiles": [
+          "interface/stlink.cfg",//stlink或者jlink
+          "target/stm32f4x.cfg"//芯片名
+        ],
+        "searchDir": [],
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "none",
+        "svdPath": "STM32F407xx.svd",//芯片svd文件路径
+        "liveWatch": {
+          "enabled": true,
+          "samplesPerSecond": 4
+        }       
+        },
+        {
+            "name": "Jlink Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/led-makefiles.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "device": "STM32F103C8",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "interface": "swd",
+            "svdFile": "STM32F103.svd",
+            "showDevDebugOutput": "raw", // 开启详细日志
+            "postLaunchCommands": [ // 可选：初始化命令
+                "monitor reset",
+                "monitor halt"
+            ],
+             "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        },
+    ]
+}

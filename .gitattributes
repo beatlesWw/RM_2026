@@ -1,0 +1,35 @@
+# 统一行尾格式：文本文件按仓库规范处理，二进制文件不转换
+* text=auto
+
+# 明确按文本处理的常见源码文件
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.py text
+*.md text
+*.txt text
+*.cmake text
+CMakeLists.txt text
+*.json text
+*.yml text
+*.yaml text
+*.xml text
+*.ioc text
+*.ld text
+*.s text
+*.sh text eol=lf
+
+# 二进制文件不转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.zip binary
+*.bin binary
+*.hex binary
