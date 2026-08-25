@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bsp_can.h": "c",
+        "vmc_calc.h": "c",
+        "detect_task.h": "c",
+        "ins_task.h": "c",
+        "chassis_power_control.h": "c",
+        "cmsis_os.h": "c",
+        "chassisr_task.h": "c"
+    }
+}

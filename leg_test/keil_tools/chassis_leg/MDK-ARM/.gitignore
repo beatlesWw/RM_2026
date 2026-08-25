@@ -1,0 +1,46 @@
+# dot files
+/.vscode/launch.json
+/.settings
+/.eide/log
+/.eide.usr.ctx.json
+
+# project out
+/build
+/bin
+/obj
+/out
+
+# eide template
+*.ept
+*.eide-template
+*.svd
+
+# Keil & Pack files
+.pack/
+RTE_Components.h
+
+# Log files
+.vscode/*.log
+.vscode/*.log.lock
+
+# Object and temp files
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.dep
+
+# Keil local files
+*.uvguix.*
+
+# Keil build outputs
+chassis_task/*.axf
+chassis_task/*.hex
+chassis_task/*.htm
+chassis_task/*.build_log.htm
+chassis_task/*.iex
+chassis_task/*.lnp
+
+# Agent temp files
+tmpclaude-*
