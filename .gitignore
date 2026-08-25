@@ -5,7 +5,8 @@
 
 # ----- 已安装软件 / 非代码目录 -----
 /app/
-/toolchains/
+/toolchains/*
+!/toolchains/链接.txt
 /VScode/
 /Browser/
 /Kimi/
