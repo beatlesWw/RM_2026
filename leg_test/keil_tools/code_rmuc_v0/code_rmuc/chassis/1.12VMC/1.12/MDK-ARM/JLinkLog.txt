@@ -1,0 +1,159 @@
+T1750 004:083.305   SEGGER J-Link V8.44a Log File
+T1750 004:083.362   DLL Compiled: Jun 18 2025 16:28:32
+T1750 004:083.368   Logging started @ 2025-12-15 10:02
+T1750 004:083.373   Process: D:\Keil_v5\UV4\UV4.exe
+T1750 004:083.379 - 22.257ms 
+T1750 004:083.389 JLINK_SetWarnOutHandler(...)
+T1750 004:083.394 - 0.004ms 
+T1750 004:083.400 JLINK_OpenEx(...)
+T1750 004:085.852   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1750 004:086.475   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1750 004:086.585   Decompressing FW timestamp took 98 us
+T1750 004:092.111   Hardware: V9.70
+T1750 004:092.118   S/N: 609788888
+T1750 004:092.124   OEM: SEGGER
+T1750 004:092.130   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T1750 004:092.616   Bootloader: (FW returned invalid version)
+T1750 004:093.223   TELNET listener socket opened on port 19021
+T1750 004:097.583   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T1750 004:097.770   WEBSRV Webserver running on local port 19080
+T1750 004:097.873   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T1750 004:097.937   Looking for J-Link GUI Server exe at: E:\toolchains\Jlink\JLink_V844a\JLinkGUIServer.exe
+T1750 004:407.303   Failed to connect to J-Link GUI Server.
+T1750 004:407.355 - 323.954ms returns "O.K."
+T1750 004:407.375 JLINK_GetEmuCaps()
+T1750 004:407.381 - 0.005ms returns 0xB9FF7BBF
+T1750 004:407.387 JLINK_TIF_GetAvailable(...)
+T1750 004:407.660 - 0.273ms 
+T1750 004:407.687 JLINK_SetErrorOutHandler(...)
+T1750 004:407.692 - 0.005ms 
+T1750 004:407.704 JLINK_ExecCommand("ProjectFile = "C:\Users\18336\Desktop\leg_test\code_rmuc (4)\code_rmuc\chassis\1.12VMC\1.12\MDK-ARM\JLinkSettings.ini"", ...). 
+T1750 004:409.833 - 2.129ms returns 0x00
+T1750 004:409.859 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T1750 004:410.315   Device "STM32F407IG" selected.
+T1750 004:410.489 - 0.623ms returns 0x00
+T1750 004:410.502 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T1750 004:410.514   ERROR: Unknown command
+T1750 004:410.521 - 0.008ms returns 0x01
+T1750 004:410.529 JLINK_GetHardwareVersion()
+T1750 004:410.534 - 0.004ms returns 97000
+T1750 004:410.944 JLINK_GetDLLVersion()
+T1750 004:410.957 - 0.012ms returns 84401
+T1750 004:410.963 JLINK_GetOEMString(...)
+T1750 004:410.969 JLINK_GetFirmwareString(...)
+T1750 004:410.974 - 0.004ms 
+T1750 004:410.983 JLINK_GetDLLVersion()
+T1750 004:410.988 - 0.004ms returns 84401
+T1750 004:410.993 JLINK_GetCompileDateTime()
+T1750 004:410.998 - 0.004ms 
+T1750 004:411.004 JLINK_GetFirmwareString(...)
+T1750 004:411.009 - 0.004ms 
+T1750 004:411.015 JLINK_GetHardwareVersion()
+T1750 004:411.019 - 0.004ms returns 97000
+T1750 004:411.025 JLINK_GetSN()
+T1750 004:411.029 - 0.004ms returns 609788888
+T1750 004:411.035 JLINK_GetOEMString(...)
+T1750 004:411.042 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T1750 004:411.626 - 0.583ms returns 0x00
+T1750 004:411.643 JLINK_HasError()
+T1750 004:411.650 JLINK_SetSpeed(5000)
+T1750 004:411.801 - 0.151ms 
+T1750 004:412.080 JLINK_HasError()
+T1750 004:412.090 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T1750 004:412.095 - 0.005ms returns JLINKARM_RESET_TYPE_NORMAL
+T1750 004:412.101 JLINK_Reset()
+T1750 004:412.316   InitTarget() start
+T1750 004:412.333    J-Link Script File: Executing InitTarget()
+T1750 004:412.537   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 004:513.298   Error: Failed to initialized DAP.
+T1750 004:513.327   Can not attach to CPU. Trying connect under reset.
+T1750 004:714.374   
+  ***** Warning: 
+T1750 004:714.403   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 004:765.364   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 004:866.481   Error: Failed to initialized DAP.
+T1750 004:866.509   Connecting to CPU via connect under reset failed.
+T1750 004:916.898   InitTarget() end - Took 504ms
+T1750 004:916.930   Connect failed. Resetting via Reset pin and trying again.
+T1750 005:118.505   
+  ***** Warning: 
+T1750 005:118.529   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 005:180.103   InitTarget() start
+T1750 005:180.135    J-Link Script File: Executing InitTarget()
+T1750 005:180.433   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 005:281.751   Error: Failed to initialized DAP.
+T1750 005:281.801   Can not attach to CPU. Trying connect under reset.
+T1750 005:482.834   
+  ***** Warning: 
+T1750 005:482.861   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 005:533.393   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 005:634.441   Error: Failed to initialized DAP.
+T1750 005:634.471   Connecting to CPU via connect under reset failed.
+T1750 005:684.687   InitTarget() end - Took 504ms
+T1750 005:684.717 - 1272.615ms 
+T1750 005:684.733 JLINK_GetId()
+T1750 005:684.877   InitTarget() start
+T1750 005:684.896    J-Link Script File: Executing InitTarget()
+T1750 005:685.016   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 005:786.337   Error: Failed to initialized DAP.
+T1750 005:786.365   Can not attach to CPU. Trying connect under reset.
+T1750 005:987.519   
+  ***** Warning: 
+T1750 005:987.542   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 006:037.785   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 006:139.600   Error: Failed to initialized DAP.
+T1750 006:139.628   Connecting to CPU via connect under reset failed.
+T1750 006:190.482   InitTarget() end - Took 505ms
+T1750 006:190.509   Connect failed. Resetting via Reset pin and trying again.
+T1750 006:392.028   
+  ***** Warning: 
+T1750 006:392.057   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 006:452.737   InitTarget() start
+T1750 006:452.768    J-Link Script File: Executing InitTarget()
+T1750 006:453.120   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 006:554.438   Error: Failed to initialized DAP.
+T1750 006:554.469   Can not attach to CPU. Trying connect under reset.
+T1750 006:755.472   
+  ***** Warning: 
+T1750 006:755.499   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 006:806.425   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 006:907.933   Error: Failed to initialized DAP.
+T1750 006:907.965   Connecting to CPU via connect under reset failed.
+T1750 006:958.683   InitTarget() end - Took 505ms
+T1750 006:958.732 - 1273.998ms returns 0x00000000
+T1750 006:958.756 JLINK_GetId()
+T1750 006:959.017   InitTarget() start
+T1750 006:959.033    J-Link Script File: Executing InitTarget()
+T1750 006:959.197   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 007:060.077   Error: Failed to initialized DAP.
+T1750 007:060.119   Can not attach to CPU. Trying connect under reset.
+T1750 007:260.177   
+  ***** Warning: 
+T1750 007:260.205   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 007:310.701   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 007:412.450   Error: Failed to initialized DAP.
+T1750 007:412.479   Connecting to CPU via connect under reset failed.
+T1750 007:463.535   InitTarget() end - Took 504ms
+T1750 007:463.568   Connect failed. Resetting via Reset pin and trying again.
+T1750 007:664.122   
+  ***** Warning: 
+T1750 007:664.148   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 007:726.618   InitTarget() start
+T1750 007:726.649    J-Link Script File: Executing InitTarget()
+T1750 007:726.936   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 007:828.330   Error: Failed to initialized DAP.
+T1750 007:828.360   Can not attach to CPU. Trying connect under reset.
+T1750 008:029.321   
+  ***** Warning: 
+T1750 008:029.349   RESET (pin 15) high, but should be low. Please check target hardware.
+T1750 008:080.295   SWD selected. Executing JTAG -> SWD switching sequence.
+T1750 008:181.740   Error: Failed to initialized DAP.
+T1750 008:181.769   Connecting to CPU via connect under reset failed.
+T1750 008:233.053   InitTarget() end - Took 506ms
+T1750 008:233.081 - 1274.325ms returns 0x00000000
+T1750 008:234.241 JLINK_GetFirmwareString(...)
+T1750 008:234.262 - 0.021ms 
+T1750 010:457.359 JLINK_Close()
+T1750 010:466.002 - 8.642ms
+T1750 010:466.037   
+T1750 010:466.041   Closed
