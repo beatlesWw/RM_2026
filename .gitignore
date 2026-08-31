@@ -42,6 +42,9 @@ _git_archives/
 *.qkdownloading
 *.crdownload
 
+# 例外：有线用这个 里的 JLink/Ozone 安装包需要上传
+!profile/2025_Inheritance/ujs_new_frame/有线用这个/*.exe
+
 # ----- 视频 -----
 *.mp4
 *.mkv

@@ -1,0 +1,82 @@
+# ============================================
+# 编译产物 - Build artifacts
+# ============================================
+build/
+Debug/
+Release/
+
+# CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ============================================
+# 编译器和链接器输出 - Compiler/Linker outputs
+# ============================================
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+*.a
+*.lib
+
+# ============================================
+# IDE 和编辑器配置 - IDE/Editor configs
+# ============================================
+# VSCode (保留 settings.json 和 launch.json，忽略其他)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# Clangd 缓存
+.cache/
+.clangd/
+
+# ============================================
+# STM32CubeMX 生成文件 - STM32CubeMX
+# ============================================
+# 保留 .ioc 文件，但忽略部分自动生成的配置
+.mxproject
+
+# ============================================
+# 调试和日志 - Debug/Log files
+# ============================================
+*.log
+
+# ============================================
+# 操作系统文件 - OS files
+# ============================================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ============================================
+# 其他临时文件 - Temporary files
+# ============================================
+*.idx
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old

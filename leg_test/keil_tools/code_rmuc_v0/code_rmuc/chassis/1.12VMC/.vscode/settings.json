@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "bsp_dwt.h": "c",
-        "remote_control.h": "c",
-        "can_receive.h": "c",
-        "dm_8009_drv.h": "c"
-    }
-}
